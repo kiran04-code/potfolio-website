@@ -8,8 +8,9 @@ function App() {
 
   return (
     <div className=' w-full h-screen bg-black  color-white'>
-      <Navbar/>
+    
     <Reloader/>
+      <Navbar/>
     <Title/>
     </div>
   )
