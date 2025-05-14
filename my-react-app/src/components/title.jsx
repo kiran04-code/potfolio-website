@@ -6,7 +6,7 @@ const Title = () => {
       <div className="px-4 md:px-0 text-center mt-40">
         <h1 className="text-white font-bold text-4xl md:text-5xl">
           Yes! I'm a{" "}
-          <span className="text-orange-300 font-bold text-5xl md:text-6xl">
+          <span className="text-orange-300 font-bold  md:text-7xl">
             software Developer.
           </span>
         </h1>

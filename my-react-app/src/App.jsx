@@ -3,6 +3,8 @@ import './App.css'
 import Reloader from './components/reloader'
 import Title from './components/title'
 import Navbar from './components/navbar'
+import Skills from "./components/skills"
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -12,6 +14,8 @@ function App() {
     <Reloader/>
       <Navbar/>
     <Title/>
+    
+    <Skills/>
     </div>
   )
 }
