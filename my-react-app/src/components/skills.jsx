@@ -4,6 +4,7 @@ import { FaHtml5, FaCss3, FaNodeJs, FaGitAlt, FaGithub } from "react-icons/fa";
 import { SiExpress, SiRedux } from "react-icons/si";
 import { BiLogoMongodb } from "react-icons/bi";
 import { RiTailwindCssFill } from "react-icons/ri";
+import { SiPostman } from "react-icons/si";
 
 const Skills = () => {
   const skills = [
@@ -17,6 +18,7 @@ const Skills = () => {
     { icon: <BiLogoMongodb />, name: "MongoDB", effect: "hover:scale-110" },
     { icon: <FaGitAlt />, name: "Git", effect: "hover:-rotate-6" },
     { icon: <RiTailwindCssFill />, name: "Tailwind CSS", effect: "hover:-rotate-12"  },
+    { icon: <SiPostman />, name: "Postman", effect: "hover:-rotate-6" },
   ];
 
   return (

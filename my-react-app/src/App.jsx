@@ -8,7 +8,7 @@ import About from "./components/Aboute"
 import ContactMe from "./components/contact"
 import Footer from './components/footer'
 import Footer2 from './components/footer2'
-
+import Stack from './components/stack'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +20,7 @@ function App() {
     <Title/>
     <ContactMe/>
     <About/>
+    <Stack/>
     <Skills/>
   <Footer/>
   <Footer2/>
