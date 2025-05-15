@@ -38,7 +38,7 @@ const Reloader = () => {
       >
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center">
           <h1
-            className={`text-5xl font-bold bg-gradient-to-r from-orange-300 via-red-400 to-red-600 text-transparent bg-clip-text transform transition-all duration-1000 ease-out ${
+            className={`text-5xl font-bold  text-orange-300 transform transition-all duration-1000 ease-out ${
               visible ? "opacity-100 translate-x-0" : "opacity-0 translate-x-20"
             }`}
           >
@@ -47,7 +47,7 @@ const Reloader = () => {
 
           {visible && (
             <p
-              className={`mt-4 text-xl font-semibold bg-gradient-to-r from-orange-300 via-red-400 to-red-600 text-transparent bg-clip-text transform transition-all duration-1000 ease-out delay-200 ${
+              className={`mt-4 text-xl font-bold text-orange-300 transform transition-all duration-1000 ease-out delay-200 ${
                 visible ? "opacity-100 translate-x-0" : "opacity-0 translate-x-20"
               }`}
             >

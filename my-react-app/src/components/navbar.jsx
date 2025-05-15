@@ -10,7 +10,7 @@ const Navbar = () => {
         {/* Logo */}
         <div className="flex items-center space-x-3">
           <h1 className="text-3xl text-orange-300">k</h1>
-         <div className="inline-block border-b-2 border-orange-300 pb-0.5">
+         <div className="inline-block border-b-3 border-orange-300 pb-0.5">
   <h1 className="text-white font-bold text-xl">Kiran.dev</h1>
 </div>
         </div>

@@ -16,8 +16,7 @@ const Skills = () => {
     { icon: <SiRedux />, name: "Redux", effect: "hover:rotate-12" },
     { icon: <BiLogoMongodb />, name: "MongoDB", effect: "hover:scale-110" },
     { icon: <FaGitAlt />, name: "Git", effect: "hover:-rotate-6" },
-    { icon: <FaGithub />, name: "GitHub", effect: "hover:translate-y-1" },
-    { icon: <RiTailwindCssFill />, name: "Tailwind CSS", effect: "hover:rotate-3" },
+    { icon: <RiTailwindCssFill />, name: "Tailwind CSS", effect: "hover:-rotate-12"  },
   ];
 
   return (

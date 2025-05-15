@@ -3,11 +3,11 @@ import React from "react";
 const Title = () => {
   return (
     <div className="w-full h-[35%] flex items-center justify-center">
-      <div className="px-4 md:px-0 text-center mt-40">
+      <div className="px-4 md:px-0 text-center mt-15">
         <h1 className="text-white font-bold text-4xl md:text-5xl">
           Yes! I'm a{" "}
           <span className="text-orange-300 font-bold  md:text-7xl">
-            software Developer.
+            Software Developer.
           </span>
         </h1>
         <p className="text-white mt-4">
