@@ -20,7 +20,7 @@ const Skills = () => {
   ];
 
   return (
-    <div className="w-full px-4 py-12 bg-black">
+    <div className="w-full px-4 py-12 bg-black ">
       {/* Gradient Title */}
       <div className="text-center mb-10">
         <p className="text-sm sm:text-base text-zinc-400 font-medium">My Technical Skills</p>
