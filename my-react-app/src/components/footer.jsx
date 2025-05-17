@@ -2,9 +2,9 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-black ">
+    <div className="   z-80 relative">
         {/* Contact Me Tag */}
-<div className="w-full bg-black ">
+<div className="w-full  ">
   <div className="max-w-6xl mx-auto px-4 py-5 text-center">
     <h1 className="text-2xl sm:text-3xl text-orange-300 " style={{ fontFamily: 'Poppins, sans-serif'}}>
       Contact Me
@@ -13,10 +13,10 @@ const Footer = () => {
 </div>
 
 
-        <div className="w-full flex flex-col md:flex-row bg-black ">
+        <div className="w-full flex flex-col md:flex-row ">
       {/* Left Image Section (45% on desktop) */}
         
-      <div className="w-full md:w-[45%] h-72 md:h-[350px] flex items-center justify-center bg-black p-5">
+      <div className="w-full md:w-[45%] h-72 md:h-[350px] flex items-center justify-center  p-5">
         <img
           src="/kiran.dev.png"
           alt="kiran.dev"

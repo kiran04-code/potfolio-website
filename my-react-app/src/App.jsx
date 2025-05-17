@@ -9,7 +9,8 @@ import ContactMe from "./components/contact"
 import Footer from './components/footer'
 import Footer2 from './components/footer2'
 import Stack from './components/stack'
-
+import Animations from "./components/animation"
+import Animation2 from './components/animation2'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -18,10 +19,12 @@ function App() {
     <Reloader/>
       <Navbar/>
     <Title/>
+    <Animations/>
     <ContactMe/>
     <About/>
     <Stack/>
     <Skills/>
+    <Animation2/>
   <Footer/>
   <Footer2/>
     </div>
