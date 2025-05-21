@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import './App.css'
 import Reloader from './components/reloader'
 import Title from './components/title'
@@ -11,22 +11,35 @@ import Footer2 from './components/footer2'
 import Stack from './components/stack'
 import Animations from "./components/animation"
 import Animation2 from './components/animation2'
+
 function App() {
-  const [count, setCount] = useState(0)
+  const [showContent, setShowContent] = useState(false)
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowContent(true)
+    }, 3000) // 3 seconds
+
+    return () => clearTimeout(timer)
+  }, [])
 
   return (
-    <div className=' w-full h-screen bg-black  color-white'>
-    <Reloader/>
-      <Navbar/>
-    <Title/>
-    <Animations/>
-    <ContactMe/>
-    <About/>
-    <Stack/>
-    <Skills/>
-    <Animation2/>
-  <Footer/>
-  <Footer2/>
+    <div className='w-full h-screen bg-black text-white'>
+      <Reloader />
+      {showContent && (
+        <>
+          <Navbar />
+          <Title />
+          <Animations />
+          <ContactMe />
+          <About />
+          <Stack />
+          <Skills />
+          <Animation2 />
+          <Footer />
+          <Footer2 />
+        </>
+      )}
     </div>
   )
 }
