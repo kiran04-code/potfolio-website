@@ -23,10 +23,10 @@ const Footer2 = () => {
 
         {/* Social Icons */}
         <div className="flex gap-4 mb-5">
-          <a href="#">
+          <a href="https://www.linkedin.com/in/kiran-rathod-66b009331">
             <FaLinkedin className="text-[28px] text-orange-300 " />
           </a>
-          <a href="#" >
+          <a href="https://github.com/kiran04-code" >
             <FaGithub className="text-[28px] text-orange-300 " />
           </a>
           <a href="#" >

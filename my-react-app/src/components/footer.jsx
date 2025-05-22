@@ -20,7 +20,7 @@ const Footer = () => {
         <img
           src="/kiran.dev.png"
           alt="kiran.dev"
-          className="h-64 md:h-80 object-contain rounded-xl shadow-lg border-2 border-orange-300"
+          className="h-67 md:h-80 object-contain rounded-xl shadow-lg border-2 border-orange-300"
         />
       </div>
 
