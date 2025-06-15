@@ -11,6 +11,7 @@ import Footer2 from './components/footer2'
 import Stack from './components/stack'
 import Animations from "./components/animation"
 import Animation2 from './components/animation2'
+import Footer3 from './components/Footer3'
 
 function App() {
   const [showContent, setShowContent] = useState(false)
@@ -38,6 +39,7 @@ function App() {
           <Animation2 />
           <Footer />
           <Footer2 />
+          <Footer3/>
         </>
       )}
     </div>

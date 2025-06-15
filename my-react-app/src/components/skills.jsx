@@ -3,6 +3,7 @@ import { IoLogoJavascript, IoLogoReact } from "react-icons/io5";
 import { FaHtml5, FaCss3, FaNodeJs, FaGitAlt, FaGithub } from "react-icons/fa";
 import { SiExpress, SiRedux } from "react-icons/si";
 import { BiLogoMongodb } from "react-icons/bi";
+import { SiTypescript } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiPostman } from "react-icons/si";
 
@@ -11,8 +12,9 @@ const Skills = () => {
     { icon: <FaHtml5 />, name: "HTML", effect: "hover:-translate-y-2" },
     { icon: <FaCss3 />, name: "CSS", effect: "hover:rotate-6" },
     { icon: <IoLogoJavascript />, name: "JavaScript", effect: "hover:scale-110" },
-    { icon: <FaNodeJs />, name: "Node.js", effect: "hover:rotate-[-6deg]" },
-    { icon: <SiExpress />, name: "Express.js", effect: "hover:translate-x-1" },
+    { icon: <SiTypescript />, name: "JavaScript", effect: "hover:scale-110" },
+    { icon: <FaNodeJs />, name: "Node.js", effect: "hover:rotate-[-12deg]" },
+    { icon: <SiExpress />, name: "Express.js", effect: "hover:translate-x-3" },
     { icon: <IoLogoReact />, name: "React", effect: "hover:scale-105 hover:rotate-3" },
     { icon: <SiRedux />, name: "Redux", effect: "hover:rotate-12" },
     { icon: <BiLogoMongodb />, name: "MongoDB", effect: "hover:scale-110" },
