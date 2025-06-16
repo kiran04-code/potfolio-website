@@ -12,6 +12,7 @@ import Stack from './components/stack'
 import Animations from "./components/animation"
 import Animation2 from './components/animation2'
 import Footer3 from './components/Footer3'
+import Project from './components/project'
 
 function App() {
   const [showContent, setShowContent] = useState(false)
@@ -34,6 +35,7 @@ function App() {
           <Animations />
           <ContactMe />
           <About />
+           <Project/>
           <Stack />
           <Skills />
           <Animation2 />
