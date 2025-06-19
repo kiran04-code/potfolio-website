@@ -3,6 +3,8 @@ import Navbar from '../components/navbar'
 import Footer from '../components/footer'
 import Footer2 from '../components/footer2'
 import Footer3 from '../components/Footer3'
+import { FaGithub } from "react-icons/fa6";
+import { NavLink } from 'react-router-dom'
 const Project001 = () => {
     return (
         <div className="text-white min-h-screen  bg-black">
@@ -51,42 +53,80 @@ const Project001 = () => {
                             <li> User-friendly chat interface</li>
                         </ul>
                     </div>
+                    <div className="w-full flex flex-col sm:flex-row gap-4 items-start sm:items-center mt-6">
+                        {/* GitHub Link */}
+                        <div className="flex gap-2 items-center px-4 py-2 border-1 border-orange-300 rounded-3xl bg-black hover:bg-orange-950 transition">
+                            <a
+                                href="https://github.com/kiran04-code/QuickChats.com.git"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-center text-white hover:text-orange-300"
+                            >
+                                <FaGithub className="text-orange-300 text-2xl mr-2" />
+                                <span className="font-medium">GitHub</span>
+                            </a>
+                        </div>
+
+                        {/* Live Project Link */}
+                        <div className="bg-black px-2 py-2 rounded-3xl flex gap-2 border-1 border-orange-300 hover:bg-orange-950 transition">
+                            <h2 className="text-lg font-bold text-orange-300">🔗 Live Project:</h2>
+                            <a
+                                href="https://quickchats-com-5.onrender.com/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-blue-400 underline hover:text-blue-300 transition"
+                            >
+                                Visit QuickChat Live
+                            </a>
+                        </div>
+                    </div>
+
                 </div>
 
                 {/* Image */}
-                <div className="flex-1 max-w-md w-full h-[300px] overflow-y-auto ">
-                  <div className='p-5 border-2 border-orange-300 rounded-2xl overflow-hidden mt-5 scroll-box '>
-                    <div className='w-full flex gap-1 mt-2 overflow-hidden'>
-                     <div className='w-[15px] h-[15px] bg-red-600 rounded-full'></div>
-                     <div className='w-[15px] h-[15px] bg-yellow-600 rounded-full'></div>
-                     <div className='w-[15px] h-[15px] bg-green-600 rounded-full'></div>
+                <div className="flex-1 max-w-md w-full h-[300px] overflow-y-auto space-y-5 pr-2 scroll-box ">
+                    {/* Image Card 1 */}
+                    <div className="p-5 border-2 border-orange-300 rounded-2xl backdrop-blur-md    shadow-orange-400 bg-white/10">
+                        <div className="w-full flex gap-1 mb-3">
+                            <div className="w-[15px] h-[15px] bg-red-600 rounded-full"></div>
+                            <div className="w-[15px] h-[15px] bg-yellow-600 rounded-full"></div>
+                            <div className="w-[15px] h-[15px] bg-green-600 rounded-full"></div>
+                        </div>
+                        <img
+                            src="/02.png"
+                            alt="QuickChat Preview"
+                            className="shadow-2xl w-full rounded-2xl"
+                        />
                     </div>
-                     <div>
-                         <img
-                        src="/image.png"
-                        alt="QuickChat Preview"
-                        className=" shadow-2xl w-full py-5 rounded-2xl"
-                    />
-                   
-                     </div>
-                  </div>
-                  <div className='p-5 border-2 border-orange-300 rounded-2xl overflow-hidden mt-5 scroll-box '>
-                    <div className='w-full flex gap-1 mt-2 overflow-hidden'>
-                     <div className='w-[15px] h-[15px] bg-red-600 rounded-full'></div>
-                     <div className='w-[15px] h-[15px] bg-yellow-600 rounded-full'></div>
-                     <div className='w-[15px] h-[15px] bg-green-600 rounded-full'></div>
+
+                    {/* Image Card 2 */}
+                    <div className="p-5 border-2 border-orange-300 rounded-2xl backdrop-blur-md    shadow-orange-400 bg-white/10">
+                        <div className="w-full flex gap-1 mb-3">
+                            <div className="w-[15px] h-[15px] bg-red-600 rounded-full"></div>
+                            <div className="w-[15px] h-[15px] bg-yellow-600 rounded-full"></div>
+                            <div className="w-[15px] h-[15px] bg-green-600 rounded-full"></div>
+                        </div>
+                        <img
+                            src="/03.png"
+                            alt="QuickChat Preview"
+                            className="shadow-2xl w-full rounded-2xl"
+                        />
                     </div>
-                     <div>
-                         <img
-                        src="/image.png"
-                        alt="QuickChat Preview"
-                        className=" shadow-2xl w-full py-5 rounded-2xl"
-                    />
-                   
-                     </div>
-                  </div>
-                
+                    <div className="p-5 border-2 border-orange-300 rounded-2xl backdrop-blur-md    shadow-orange-400 bg-white/10">
+                        <div className="w-full flex gap-1 mb-3">
+                            <div className="w-[15px] h-[15px] bg-red-600 rounded-full"></div>
+                            <div className="w-[15px] h-[15px] bg-yellow-600 rounded-full"></div>
+                            <div className="w-[15px] h-[15px] bg-green-600 rounded-full"></div>
+                        </div>
+                        <img
+                            src="/01.png"
+                            alt="QuickChat Preview"
+                            className="shadow-2xl w-full rounded-2xl"
+                        />
+                    </div>
+
                 </div>
+           
             </div>
             <Footer />
             <Footer2 />

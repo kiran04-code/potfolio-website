@@ -17,9 +17,5 @@ p{
 }
 
 .scroll-box {
-  width: 400px;
-  height: 300px;
-  overflow-y: auto; /* adds vertical scroll */
-  padding: 10px;
-  border: 1px solid #ccc;
+background-color: black;
 }
