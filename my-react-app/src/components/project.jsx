@@ -1,7 +1,5 @@
 import React from 'react'
-import Project1 from './projectscomponents/project1'
-import Project2 from './projectscomponents/Porject2'
-import Project3 from './projectscomponents/porject2 copy'
+import Project1 from './projectscomponents/Project1'
 import { NavLink } from 'react-router-dom'
 
 const Project = () => {
