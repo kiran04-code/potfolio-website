@@ -12,7 +12,7 @@ const Skills = () => {
     { icon: <FaHtml5 />, name: "HTML", effect: "hover:-translate-y-2" },
     { icon: <FaCss3 />, name: "CSS", effect: "hover:rotate-6" },
     { icon: <IoLogoJavascript />, name: "JavaScript", effect: "hover:scale-110" },
-    { icon: <SiTypescript />, name: "JavaScript", effect: "hover:scale-110" },
+    { icon: <SiTypescript />, name: "Typescript", effect: "hover:scale-110" },
     { icon: <FaNodeJs />, name: "Node.js", effect: "hover:rotate-[-12deg]" },
     { icon: <SiExpress />, name: "Express.js", effect: "hover:translate-x-3" },
     { icon: <IoLogoReact />, name: "React", effect: "hover:scale-105 hover:rotate-3" },

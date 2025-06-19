@@ -1,26 +1,24 @@
 import React from "react";
-
+import Stack01 from "./skillstack/staks";
+import Stack02 from "./skillstack/staks02";
 const Stack = () => {
   return (
-    <div
-      className="w-full min-h-[40vh] bg-black flex flex-wrap p-6 gap-8
-                 justify-center sm:justify-start"
+   <div>
+   <div className="w-full flex justify-center items-center">
+     <h1 className="text-4xl sm:text-7xl md:text-8xl lg:text-9xl xl:text-[4rem] font-extrabold bg-gradient-to-b from-orange-300 to-orange-900 text-transparent bg-clip-text flex ">
+        Skills
+      </h1>
+   </div>
+     <div
+      className="w-full min-h-[40vh] bg-black flex flex-wrap  gap-8
+                 justify-center sm:justify-start items-center" 
     >
+      
       {/* Full Stack MERN Developer Card */}
-      <div
-        className="relative bg-zinc-900 rounded-xl p-8 w-62 h-75 text-white
-                   text-center font-bold flex flex-col items-center justify-center
-                   border-1 border-orange-300
-                   ml-0 sm:ml-40 mt-10" 
-      >
-        <img
-          src="/MERN-logo.png"
-          alt="Full Stack MERN Icon"
-          className="w-32 h-20 mb-4 object-contain"
-        />
-        <p className="text-lg font-bold"> MERN Developer</p>
-      </div>
+     <Stack01/>
+     <Stack02/>
     </div>
+   </div>
   );
 };
 

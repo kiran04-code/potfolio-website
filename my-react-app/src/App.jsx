@@ -25,7 +25,8 @@ function App() {
     return () => clearTimeout(timer)
   }, [])
 
-  return (
+
+return (
     <div className='w-full h-screen bg-black text-white'>
       <Reloader />
       {showContent && (
@@ -35,17 +36,22 @@ function App() {
           <Animations />
           <ContactMe />
           <About />
-           <Project/>
+          <Project />
           <Stack />
           <Skills />
           <Animation2 />
           <Footer />
           <Footer2 />
-          <Footer3/>
+          <Footer3 />
+
+          {/* All routes go inside <Routes> in React Router v6 */}
+          
         </>
       )}
     </div>
-  )
+  
+);
+
 }
 
 export default App
