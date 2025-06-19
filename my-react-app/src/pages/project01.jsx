@@ -4,7 +4,6 @@ import Footer from '../components/footer'
 import Footer2 from '../components/footer2'
 import Footer3 from '../components/Footer3'
 import { FaGithub } from "react-icons/fa6";
-import { NavLink } from 'react-router-dom'
 const Project001 = () => {
     return (
         <div className="text-white min-h-screen  bg-black">

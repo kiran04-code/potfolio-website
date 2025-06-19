@@ -1,5 +1,5 @@
 import React from "react";
-import Stack01 from "./skillstack/staks";
+import Stack01 from "./skillstack/staks01";
 import Stack02 from "./skillstack/staks02";
 const Stack = () => {
   return (
